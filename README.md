@@ -1,2 +1,2 @@
 # human-activity-classification
-A machine learning project for Human Activity Recognition.
+This project implements a machine learning pipeline for classifying human activities (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying) using smartphone sensor data. The notebook includes comprehensive exploratory data analysis, feature engineering, t-SNE visualization, and hyperparameter tuning of a Random Forest classifier via GridSearchCV. The final model achieves ~98.5% weighted F1-score on validation data, demonstrating strong performance in distinguishing between different activity types, particularly between static and dynamic movements.
